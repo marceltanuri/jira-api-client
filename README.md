@@ -5,7 +5,7 @@ Here are some javascripts programs that call Jira API
 
 How to use:
 1. Run `npm i`
-2. Then you have to create a file config.json and then set your jira host, admin user and password. For example:
+2. Then you have to create a file `config.json` and then set your jira host, admin user and password. For example:
 ```
 {
     "host" : "https://jira.yourdomain.foo",
