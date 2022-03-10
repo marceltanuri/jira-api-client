@@ -1,4 +1,4 @@
-# Jira API scripts
+# Jira API client
 
 
 Here are some javascripts programs that call Jira API
