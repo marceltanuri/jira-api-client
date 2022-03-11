@@ -1,7 +1,7 @@
 # Jira API client
 
 
-Here are some javascripts programs that call Jira API
+Here is Jira API client written in nodeJS
 
 How to use:
 1. Run `npm i`
