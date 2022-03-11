@@ -15,7 +15,7 @@ How to use:
 ```
 
 3. Now all you have to do is just run the choosen program. For example:
-`node listAllUsers.js`
+`node index.js`
 
 
 
