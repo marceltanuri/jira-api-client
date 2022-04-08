@@ -1,5 +1,20 @@
 const UserAPI = require('./client/v2/rest/UserAPI').UserAPI;
+const GroupAPI = require('./client/v2/rest/GroupAPI').GroupAPI;
+
+const userAPI = new UserAPI();
+const groupAPI = new GroupAPI();
 
 //Example of Use
-new UserAPI().getAllUsers().then(res => console.log(res))
-new UserAPI().countUsers().then(res => console.log(res))
+userAPI.countUsers().then(res => console.log(res))
+
+userAPI.findUser("tanuri").then(res => {
+    console.log(res)
+})
+
+groupAPI.getAllGroups().then(res => {
+    console.log(res)
+})
+
+groupAPI.getUsersFromGroup('confluence-users').then(res => {
+     console.log(res.values.length)
+})
