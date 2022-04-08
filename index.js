@@ -7,10 +7,6 @@ const groupAPI = new GroupAPI();
 //Example of Use
 userAPI.countUsers().then(res => console.log(res))
 
-userAPI.findUser("tanuri").then(res => {
-    console.log(res)
-})
-
 groupAPI.getAllGroups().then(res => {
     console.log(res)
 })
